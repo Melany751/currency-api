@@ -1,0 +1,32 @@
+app:
+  appName: "challenge"
+  #description: ""
+  keywords: ["golang" ]
+  maintainers: ["melany" ]
+gin:
+  - name: challenge
+    port: 8080
+    enabled: true
+    commonService:
+      enabled: true
+    sw:
+      enabled: true
+      jsonPath: config/docs
+    docs:
+      enabled: true
+      jsonPath: config/docs
+    middleware:
+      logging:
+        enabled: true
+      cors:
+        enabled: true
+        options:
+          allowedOrigins:
+            - "*"
+          allowedMethods:
+            - GET
+            - POST
+            - PUT
+            - DELETE
+          allowedHeaders:
+            - "*"
