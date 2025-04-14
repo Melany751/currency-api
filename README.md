@@ -1,11 +1,6 @@
-# generate_readme.py
-
-readme_content = """
 # 💱 Currency API
 
 **Currency API** es una API REST desarrollada en **Go (Golang)** que permite obtener tasas de cambio entre diferentes monedas y realizar conversiones monetarias en tiempo real. Está diseñada para integrarse fácilmente en sistemas financieros, aplicaciones de ecommerce, pasarelas de pago, dashboards de análisis financiero y cualquier entorno que requiera manejo de divisas. La arquitectura modular y el enfoque en el rendimiento la hacen ideal para despliegues en producción.
-
----
 
 ## 🚀 Características
 
@@ -63,9 +58,9 @@ currency-api/
    - **HTTP Client**: Se emplea para realizar solicitudes a APIs externas para obtener tasas de cambio.
    - **JSON**: El formato de intercambio de datos entre la API y los clientes.
    - **Git**: Herramienta de control de versiones utilizada en el proyecto.
+   - **Docker**: Para crear contenedores y facilitar el despliegue de la API en cualquier entorno.
 
 **🤝 Contribuciones**:
-   - Guía para realizar contribuciones al proyecto (cómo crear un fork, trabajar en una nueva rama, hacer commits, y abrir un Pull Request).
-   - Se especifica que las contribuciones pueden ser mejoras de código, correcciones de bugs o nuevas funcionalidades.
+   - !Las contribuciones son bienvenidas! Abre issues o envía pull requests.
 
 
